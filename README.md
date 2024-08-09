@@ -37,6 +37,9 @@ python search.py --query "ваш запрос" --count <количество р�
 --method: Метод поиска (full_text, sbert, hybrid).  
 
 ## Примеры
+
+### Запрос: "Отцы и дети"
+
 ```bash
 python search.py --query "Отцы и дети" --count 5 --method full_text
 ```
@@ -121,7 +124,7 @@ python search.py --query "Отцы и дети" --count 5 --method hybrid
 Заглавие: Дед и внук
 ```
 
-
+### Запрос: "мяу"
 ```bash
 python search.py --query "мяу" --count 5 --method full_text
 ```
@@ -206,6 +209,7 @@ python search.py --query "мяу" --count 5 --method hybrid
 
 ```
 
+### Запрос: "самолет"
 
 ```bash
 python search.py --query "самолет" --count 5 --method full_text
@@ -261,6 +265,7 @@ python search.py --query "самолет" --count 5 --method vector
 
 5. Скор:  0.5314
 Заглавие: Корнет Отлетаев
+```
 
 
 ```bash
