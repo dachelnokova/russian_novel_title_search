@@ -155,11 +155,14 @@ def perform_search(query, top_k, method):
     numbered_results = [(i + 1, doc, score) for i, (doc, score) in enumerate(results)]
 
     print(f"\nВаш поисковой запрос: {query}")
-    print(f"\nВыбранный метод поиска: {method}")
-    print(f"\nКоличество результатов для выдачи: {top_k}")
+    print(f"Выбранный метод поиска: {method}")
+    print(f"Количество результатов для выдачи: {top_k}")
     print(f"Время исполнения: {elapsed_time:.4f} секунд")
+    print("-" * 34) 
+
     for i, doc, score in numbered_results:
-        print(f"{i}. Скор: {score:.4f}\nЗаглавие: {doc}\n")
+        print(f"{i}. Скор:  {score:.4f}")
+        print(f"Заглавие: {doc}\n")
 
 # Загрузка данных и моделей
 print("Загрузка данных и моделей...")
