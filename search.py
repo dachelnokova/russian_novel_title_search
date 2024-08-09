@@ -159,7 +159,7 @@ def perform_search(query, top_k, method):
     print(f"\nКоличество результатов для выдачи: {top_k}")
     print(f"Время исполнения: {elapsed_time:.4f} секунд")
     for i, doc, score in numbered_results:
-        print(f"{i}. Score: {score:.4f}\nReview: {doc}\n")
+        print(f"{i}. Скор: {score:.4f}\nЗаглавие: {doc}\n")
 
 # Загрузка данных и моделей
 print("Загрузка данных и моделей...")
