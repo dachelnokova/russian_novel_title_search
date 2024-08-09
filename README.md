@@ -14,6 +14,7 @@
 * `tfidf_matrix.pkl`:  Матрица TF-IDF для заголовков датасета.
 * `tfidf_vectorizer.pkl`:  Векторизатор TF-IDF.
 * `search.py`:  Основной скрипт для поиска.
+* `title_search.ipynb`:  Jupyter Notebook с кодом создания поисковика и примерами использования.
 * `requirements.txt`:  Список необходимых библиотек.
 
 
